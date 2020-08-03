@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .brandName{
+    margin-left: 60px;
+}
+
+.header button {
+    color: azure;
+    background-color: rgba(239, 81, 53, 1);
+}
+
+.userNav {
+    padding: 30px;
+}
+
+.userNav ul {
+    margin: 10px;
+} 
+
+.userNav ul li {
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftNav {
+    float: left;
+}
+
+.rightNav {
+    float: right;
+}
+
+.rightNav a {
+    text-decoration: none;
+    color: azure;
+    margin: 12px;
+    display: inline-block;
+}
+
+.navBar {
+    color: azure;
+    background-color: black;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul li a {
+    margin: 12px;
+    display: inline-block;
+}
+
+.category {
+    height: 100%;
+    background-color: rgba(239, 81, 53, 1);
+}
+
+.container {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+
+.firstDiv {
+    background: url("http://via.placeholder.com/1200x400") no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.firstDiv .contents {
+    position: relative;
+    display: block;
+}
+
+.firstDiv strong {
+    position: inherit;
+    top: 80px;
+    left: 60px;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 42px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.firstDiv p {
+    position: inherit;
+    top: 120px;
+    left: 60px;
+}
+
+.firstDiv button {
+    position: inherit;
+    top: 180px;
+    left: 60px;
+    color: azure;
+    background-color: rgba(239, 81, 53, 1);
+}
+
+.secondDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.firstImg {
+    width: 600px;
+    height: 400px;
+    margin-right: 5px;
+    background: url("http://via.placeholder.com/600x400") no-repeat;
+    background-size: cover;
+}
+
+.adWord {
+    position: relative;
+    display: block;
+    left: 5%;
+    top: 8%;
+    margin: 0 auto;
+}
+
+.firstImg .adWord .line1, .line2, .line3 {
+    display: block;
+}
+
+.firstImg .line1 {
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.firstImg .line2 {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.firstImg .line3 {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.secondImg {
+    margin-left: 5px;
+    width: 600px;
+    height: 400px;
+    background: url("http://via.placeholder.com/600x400") no-repeat;
+    background-size: cover;
+}
+
+.secadWord {
+    position: relative;
+    display: block;
+    left: 5%;
+    top: 8%;
+    margin: 0 auto;
+}
+
+.secondImg .secadWord .line1, .line2, .line3 {
+    display: block;
+}
+
+.secondImg .line1 {
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.secondImg .line2 {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.secondImg .line3 {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.thirdDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thirdDiv .brandService {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(18, 18, 18, 1);
+}
+
+.tFoot {
+    color: azure;
+    background-color: rgba(239, 81, 53, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.tFoot button {
+    background-color: rgba(18, 18, 18, 1);
+    color: azure;
+}
+
+.tFoot ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.tFoot ul li {
+    padding: 2px;
+}
