@@ -243,6 +243,18 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+
+    .user-option {
+        display: none;
+    }
+
+    .mob-user-option ul {
+        margin: 10px;
+    } 
+    
+    .mob-user-option ul li {
+        display: inline-block;
+    }
 }   
 
 @media screen and (max-width:400px) {
@@ -282,21 +294,5 @@ footer {
     .top-footer .wrapper {
         display: block;
         text-align: center;
-    }
-
-    .user-option {
-        display: none;
-    }
-
-    .mob-user-option ul {
-        margin: 10px;
-    } 
-    
-    .mob-user-option ul li {
-        display: inline-block;
-    }
-
-    a {
-        text-decoration: none;
     }
 }
