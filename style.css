@@ -53,8 +53,10 @@ nav {
     background-color: black;
     margin-bottom: 10px;
 }
+
 .left-navbar {
     float: left;
+    display: flex;
 }
 
 .right-navbar {
@@ -75,6 +77,10 @@ nav {
 .navBar ul li a {
     padding: 15px;
     display: inline-block;
+}
+
+.mobile-nav ul {
+    display: none;
 }
 
 .category {
@@ -106,22 +112,20 @@ nav {
     margin-bottom: 30px;
 }
 
-div.ad-card:nth-child(odd) {
+.ad-card {
+    margin: 20px 0;
+    background: url("http://via.placeholder.com/600x280") no-repeat;
+    background-size: cover;
+    height: 280px;
     width: 600px;
+}
+
+div.ad-card:nth-child(odd) {
     margin-right: 5px;
 }
 
 div.ad-card:nth-child(even) {
-    width: 600px;
     margin-left: 5px;
-}
-
-.ad-card {
-    height: 280px;
-    margin: 20px 0;
-    background: url("http://via.placeholder.com/600x280") no-repeat;
-    background-size: cover;
-    
 }
 
 .ad-text {
@@ -161,9 +165,19 @@ span.ad-line:nth-child(even) {
     font-size: 20px;
 }
 
-.new-arrivals .box {
+.box {
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
+    text-align: center;
+}
+
+.products {
+    margin-right: 10px;
+}
+
+.products button {
+    color: azure;
 }
 
 footer {
@@ -191,7 +205,7 @@ footer {
 .top-footer ul {
     display: flex;
     list-style: none;
-
+    justify-content: center;
 }
 
 .top-footer ul li {
@@ -210,4 +224,66 @@ footer {
     font-size: 20px;
 }
 
-@media screen and9
+@media screen and (max-width:1300px) {
+    .wrapper {
+        max-width: 1000px;
+    }
+}   
+
+@media screen and (max-width:1100px) {
+    .wrapper {
+        max-width: 700px;
+    }
+    .search-bar {
+        display: none;
+    }
+    .res-nav-bar {
+        display: none;
+    }
+    .mobile-nav ul {
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}   
+
+@media screen and (max-width:400px) {
+    .wrapper {
+        max-width: 350px;
+    }
+
+    .ad-cards {
+        display: block;
+    }
+
+    .ad-cards .ad-card {
+        width: 350px;
+        height: 280px;
+    }
+    
+    div.ad-card:nth-child(odd) {
+        margin-right: 0;
+    }
+    
+    div.ad-card:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .services .brandService {
+        display: block;
+    }
+
+    .services hr {
+        visibility: hidden;
+    }
+
+    .services .service-list {
+        margin-bottom: 20px;
+    }
+
+    .top-footer .wrapper {
+        display: block;
+        text-align: center;
+    }
+}
