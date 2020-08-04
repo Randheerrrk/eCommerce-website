@@ -47,6 +47,10 @@ header .wrapper {
     display: inline-block;
 }
 
+.mob-user-option ul li{
+    display: none;
+}
+
 nav {
     height: 50px;
     width: 100%;
@@ -285,5 +289,21 @@ footer {
     .top-footer .wrapper {
         display: block;
         text-align: center;
+    }
+
+    .user-option {
+        display: none;
+    }
+
+    .mob-user-option ul {
+        margin: 10px;
+    } 
+    
+    .mob-user-option ul li {
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
     }
 }
