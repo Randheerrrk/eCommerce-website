@@ -138,13 +138,6 @@ div.ad-card:nth-child(even) {
 
 .ad-line {
     display: block;
-}
-
-span.ad-line:nth-child(odd) {
-    padding: 10px;
-}
-
-span.ad-line:nth-child(even) {
     padding: 10px;
 }
 
