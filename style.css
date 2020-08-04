@@ -86,11 +86,22 @@ nav {
     background: url("http://via.placeholder.com/1200x400") no-repeat;
     background-size: cover;
     height: 400px;
+    padding: 50px;
+}
+
+.banner-line {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.banner-main-line {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 .ad-cards {
     display: flex;
-    justify-content: space-around;
     margin-bottom: 20px;
     margin-bottom: 30px;
 }
@@ -113,18 +124,20 @@ div.ad-card:nth-child(even) {
     
 }
 
+.ad-text {
+    margin: 30px;
+}
+
 .ad-line {
     display: block;
-    margin-left: 20px;
-    margin-top: 20px;
 }
 
 span.ad-line:nth-child(odd) {
-    padding-top: 20px;
+    padding: 10px;
 }
 
 span.ad-line:nth-child(even) {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .services {
@@ -151,16 +164,6 @@ span.ad-line:nth-child(even) {
 .new-arrivals .box {
     display: flex;
     justify-content: space-between;
-}
-
-.brands {
-    margin: 20px 0;
-}
-
-.brand-logos {
-    margin: 10px;
-    display: flex;
-    overflow: hidden;
 }
 
 footer {
@@ -200,3 +203,11 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.footer-link-head {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media screen and9
